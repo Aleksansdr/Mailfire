@@ -25,6 +25,9 @@ let package = Package(
             name: "MailfireTests",
             dependencies: ["Mailfire"]),
         */
+        /*
         .binaryTarget(name: "Mailfire", url: "https://github.com/mailfire/ios-sdk/blob/master/Mailfire.xcframework.zip", checksum: "2aa5eef4baacadae0c1083db997b55429dad789e3163432769128b11503f01ca")
+        */
+        .binaryTarget(name: "Mailfire", path: "./Sources/Mailfire.xcframework")
     ]
 )
